@@ -1,6 +1,7 @@
 require 'rack'
 require 'grape_session/version'
 require 'active_support/concern'
+pry
 require 'grape_cookies'
 
 module GrapeSession
