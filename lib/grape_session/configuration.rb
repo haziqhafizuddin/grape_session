@@ -1,6 +1,6 @@
 module GrapeSession
   class Configuration
-    include GrapeCookies::Configuration.module(:key, :domain, :path, :expire_after, :secure, :httponly, :defer, :renew)
+    include GrapeCookies::Configuration.module(:key, :domain, :path, :expire_after, :secure, :httponly, :defer, :renew, :skip)
 
     # setup defaults
     configure do

@@ -8,5 +8,3 @@ gem 'coveralls', require: false
 gem 'rubocop', require: false
 
 gem 'grape', github: 'intridea/grape'
-
-
